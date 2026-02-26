@@ -13,6 +13,10 @@ In this lab you've learned the basics of number theory as it relates to addition
 |Question 2|Your answers to the question|25%|
 |Question 3|Your answers to the question|25%|
 
+## Lab Summary
+
+We started by creating the equations for the multiple different .v files that we had. These equations included XOR operations, and specfically for the full adder, we needed to use K-Maps to find the equations. After we found the equations and put them into their respective .v files, we needed to set top.v up with all of its switches and leds, including a wiring between two full adders. After setting up the top.v files, we synthesized and generated our bitstream, and our Basys3 board worked after doing that.
+
 ## Lab Questions
 
 ### 1 - How might you add more than two bits together?
