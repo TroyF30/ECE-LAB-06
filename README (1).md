@@ -1,0 +1,39 @@
+# Number Theory: Addition
+
+Peter Krahn, Kyle Fowers
+
+In this lab you've learned the basics of number theory as it relates to addition.
+
+## Rubric
+
+|Item|Description|Value|
+|-|-|-|
+|Summary Answers|Your writings about what you learned in this lab.|25%|
+|Question 1|Your answers to the question|25%|
+|Question 2|Your answers to the question|25%|
+|Question 3|Your answers to the question|25%|
+
+## Lab Questions
+
+### 1 - How might you add more than two bits together?
+
+Combining more than two bits together is done in base two. Meaning that if we have two bits 01 and that means the 0 would be 2 \* 0 and the 1 being 1 \* 1 meaning that 01 = 1 if we had 11 it would be 1 \* 2 + 1 \* 1 meaning that 11 = 3. If you are to add more than two bits together for example 11111 would be 1\*1 + 1\*2 + 1\*4 + 1\*8 + 1\*16 = 33 
+
+To calculate two bits we simply have a carry over number which means that there will be a 1 place holder for when we get two for one bit which carries over to the next slot of the bit for example:
+
+&nbsp; 1   1 (These numbers represent the carry over for our two bits)
+
+&nbsp;110001
+
++010011
+
+&nbsp;1000100
+
+### 2 - What is the importance of the XOR gate in an adder?
+
+It is important as an added because it implements the binary sum directly. Acting as a modulo 2 adder which outputs 1 only when the inputs differ. 	
+
+### 3 - What is the largest number a two bit adder can handle? What happens when you go over?
+
+The largest a two bit adder can handle is 6 but only in a summation. But in normal terms each bit will only have 3 maximum since each we are adding in example 01 + 11 together which would be 01 + 11 = 4 for example of the largest bits we can add is 11 + 11 = 6.  
+
