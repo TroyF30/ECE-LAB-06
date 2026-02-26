@@ -1,6 +1,6 @@
 # Number Theory: Addition
 
-Peter Krahn, Kyle Fowers
+Peter Krahn, Troy Fowers
 
 In this lab you've learned the basics of number theory as it relates to addition.
 
@@ -31,9 +31,9 @@ To calculate two bits we simply have a carry over number which means that there 
 
 ### 2 - What is the importance of the XOR gate in an adder?
 
-It is important as an added because it implements the binary sum directly. Acting as a modulo 2 adder which outputs 1 only when the inputs differ. 	
+It is important as an adder because it implements the binary sum directly. Acting as a modulo 2 adder which outputs 1 only when the inputs differ. 	
 
 ### 3 - What is the largest number a two bit adder can handle? What happens when you go over?
 
-The largest a two bit adder can handle is 6 but only in a summation. But in normal terms each bit will only have 3 maximum since each we are adding in example 01 + 11 together which would be 01 + 11 = 4 for example of the largest bits we can add is 11 + 11 = 6.  
+The largest a two bit adder can handle is 6 but only in a summation. But in normal terms each bit will only have 3 maximum since each we are adding in example 01 + 11 together which would be 01 + 11 = 4 for example of the largest bits we can add is 11 + 11 = 6, because an overflow occurs as we add the pairs of bits.
 
